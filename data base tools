@@ -1,0 +1,45 @@
+import time
+import random
+import webbrowser
+import re
+print("==================")
+print("    NAIK TOOLS    ")
+print("==================")
+print(" 1]DATA BASE TOOLS")
+print(" 2]PASSWORD BASE TOOLS")
+print(" 3]RANDOM TOOLS")
+print(" 4]AUTHOUR")
+choice=int(input(" ENTER YOUR CHOICE::"))
+if choice==1:
+    print("======================")
+    print("     DATA BASE TOOLS")
+    print("======================")
+    print(" 1]AXCESS GOOGLE")
+    print(" 2]AXCESS YOUTUBE")
+    print(" 3]AXCESS FACEBOOK ACCOUNT")
+    dchoice=int(input(" ENTER YOUR CHOICE::"))
+    if dchoice==1:
+        print("....AXCESSING GOOGLE")
+        time.sleep(2)
+        print("....LOADING SOCKET")
+        time.sleep(3)
+        webbrowser.open("www.google.com")
+    if dchoice==2:
+        print("....AXCESSING YOUTUBE")
+        time.sleep(2)
+        print("....LOADING SOCKET")
+        time.sleep(3)
+        webbrowser.open("www.youtube.com")
+    if dchoice==3:
+        print("....AXCESSING FACEBOOK")
+        time.sleep(2)
+        print("....LOADING SOCKET")
+        webbrowser.open("www.facebook.com")
+
+if choice==2:
+    print("==================")
+    
+        
+else:
+    print("INVALID!!")
+        
